@@ -17,7 +17,7 @@ namespace Lab
             while(n!=0)
                 {
                 rem = n % 10;
-                sum= sum+ (rem*rem*rem);
+                sum= sum+ (rem*rem*rm);
                 n = n / 10;
             }
             if (sum == temp)
